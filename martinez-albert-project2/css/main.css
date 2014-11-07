@@ -1,5 +1,5 @@
 /*global styles*/
-* {
+body>* {
 	font-family: 'Advent Pro', sans-serif;
 	font-size: 1em/1.5;
 	background: white;
@@ -11,6 +11,12 @@ h1 {
 }
 
 /*navigation*/
+nav {
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
 ul {
 	list-style: none;
 }
