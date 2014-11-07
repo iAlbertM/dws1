@@ -1,0 +1,84 @@
+/*global styles*/
+* {
+	font-family: 'Advent Pro', sans-serif;
+	font-size: 1em/1.5;
+	background: white;
+	color: #7c7c7c;
+}
+
+h1 {
+	font: small-caps 300 2em/1.5;
+}
+
+/*navigation*/
+ul {
+	list-style: none;
+}
+
+nav li {
+	font: small-caps, bold, 1.275em/1.5;
+	background-color: rgba(0, 88, 95, 0.6);
+}
+nav li:hover {
+	color: #FF3800;
+}
+
+
+
+
+/*headers*/
+h1 {
+	font-size: 2em / 1.5;
+}
+
+
+h2 {
+	font-size: 1.757em/1.5;
+}
+
+header {
+	background-color: rgba(153, 153, 153, 0.5);
+}
+
+
+/**/
+
+
+
+Opacity, RGBA, or HSLA
+Styling text
+The following CSS properties should be used:
+font-family
+font-size
+font-weight
+font-style
+line-height
+text-align or text-indent
+text-shadow
+Add a web based font using:
+<link /> or @font-face
+Style your links using the following CSS pseudo-classes:
+a:link
+a:visited
+a:hover
+a:active
+Change the default list styling using:
+list-style-type
+Box model
+The following CSS properties should be used:
+width
+height
+padding
+border
+margin
+Center your page using:
+width
+auto margins
+Add rounded corners using:
+border-radius
+Add box shadow using:
+box-shadow
+Change the display of elements from their default using:
+display
+Comments
+Add comments to both your HTML and CSS to help with organization. For example, HTML comments where divs close ("end content") and CSS comments to split the stylesheet into different sections ("main styles", "navigation", "layout", etc.).
