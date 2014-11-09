@@ -1,90 +1,342 @@
-/*global styles*/
-body>* {
-	font-family: 'Advent Pro', sans-serif;
-	font-size: 1em/1.5;
-	background: white;
-	color: #7c7c7c;
+/* 
+created by: Albert Martinez
+inspired by: certain styoles from the css Zen Garden submission 221 - 'Mid_Century_Modern', by Andrew Lohman, http://www.andrewlohman.com/
+ 
+==========================================================================
+VISUAL STYLES
+==========================================================================
+*/
+
+/* color scheme for foreground and background */
+.red {
+    color: #da043a; /* i.e. red foreground color  */
+}
+
+.redbg {
+    background-color: #da043a; /* i.e. red backgound color */
+}
+
+.blue {
+    color: #adc0d7;
+}
+
+.bluebg {
+    background-color: #adc0d7;
+}
+
+.tan {
+    color: #f5e6df;
+}
+
+.tanbg {
+    background-color: #f5e6df;
+}
+
+.white {
+    color: white;
+}
+
+.whitebg {
+    background-color: white;
+}
+
+.gray {
+    color: #474747;
+}
+
+.graybg {
+    background-color: rgba(71,71,71,0.5);
+}
+
+.black {
+    color: #000;
+}
+
+.blackbg {
+    background-color: #000;
+}
+
+/* layout / positioning / spacial stylings */
+
+.boxshadow {
+    -moz-box-shadow: 4px 9px 11px #0d0d0d;
+    -webkit-box-shadow: 4px 9px 11px #0d0d0d;
+    box-shadow: 4px 9px 11px #0d0d0d;
+}
+
+.inblock {
+    display: inline-block;
+}
+
+.block {
+    display: block;
+}
+
+.table {
+    display: table;
+}
+
+.padding-tb {
+	padding-top: 10%;
+	padding-bottom: 10%; 
+}
+
+.padding-lr {
+	padding-left: 10%;
+	padding-right: 10%; 
+}
+
+.margin-tb {
+	margin-top: 20%;
+	margin-bottom: 20%;
+}
+
+.margin-lr {
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+.margin-r {
+	margin-right: 5%;
+}
+
+.full {
+	width: 100%;
+	height: auto;
+}
+
+.wrapper {
+    width: 70%;
+    margin: 0 auto;
+    display: inline-block;
+}
+
+.hidden {
+    display: none;
+}
+
+.center {
+    margin: 0 auto;
+}
+
+.text-center {
+    text-align:center;
+}
+
+p, .logo {
+	width: 100%;
+}
+
+
+
+/* 
+==========================================================================
+GLOBAL STYLES
+==========================================================================
+*/
+
+body {
+    width: 50%;
+    padding-top: 10%;
+	margin: 0 auto;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1em;
+    line-height: 1.5;
+    color: #7c7c7c;
 }
 
 h1 {
-	font: small-caps 300 2em/1.5;
+    color: #000;
+   	text-transform: capitalize;
+   	font-size: 2em/1.5;
 }
 
-/*navigation*/
-nav {
-	position: fixed;
-	top: 0;
-	left: 0;
+h2 {
+    font-size: 1.757em/1.5;
+}
+
+h3 {
+    font-size: 1em/1;
+
 }
 
 ul {
-	list-style: none;
+    list-style: none;
 }
 
+a, section {
+    text-decoration: none;
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    -ms-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+}
+
+blockquote {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 300;
+    font-variant: small-caps;
+    font-size: 2em;
+
+}
+
+#welcome, #define, #discover, #materials, #contact{
+    padding: 5%;
+    border-radius: 30px;
+}
+
+section>h1.vname>strong {
+    font-weight: bold;
+}
+/* 
+==========================================================================
+HEADER
+==========================================================================
+*/
+
+#header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 0 .25em;
+    margin-right: 1%;
+    background-color: rgba(71, 71, 71, 0.9);
+}
+#header h1 {
+    float: left;
+    width: 30%;
+    margin-left: 2em;
+}
+nav {
+    float: right;
+}
 nav li {
-	font: small-caps, bold, 1.275em/1.5;
-	background-color: rgba(0, 88, 95, 0.6);
+    display: inline-block;
+    float: left;
+    padding: 1em;
+    margin: 0 1.5em;
+    font: small-caps bold 1.275em/1.5;
 }
-nav li:hover {
-	color: #FF3800;
+.nav-link a:link {
+    color: #ccc;
+    text-decoration: none;
 }
-
-
-
-
-/*headers*/
-h1 {
-	font-size: 2em / 1.5;
+.nav-link a:visited {
+    color: #eee;
 }
-
-
-h2 {
-	font-size: 1.757em/1.5;
+.nav-link a:hover {
+    color: #da043a;
 }
-
-header {
-	background-color: rgba(153, 153, 153, 0.5);
+.nav-link a:active {
+    color: #fff;
 }
 
+/* 
+==========================================================================
+WELCOME
+==========================================================================
+*/
+#welcome {
+    bg
+}
 
-/**/
+.welcome-header {
+    text-shadow: 2px 2px #ddd;
+}
+
+div.bg img {
+    background-color: #e7e7e7;
+    background-size: contain;
+    border: thin solid #000;
+}
+.toc-boxes {
+    margin: 0 auto;
+}
+.toc-boxes li {
+    float: left;
+    padding: 0 1%;
+}
+/* 
+==========================================================================
+DEFINE
+==========================================================================
+*/
+/* text transform for the titles to display on the side of their content */
+ .vertical .vname{
+    position: absolute;
+    padding-top: 5em;
+    left: -5em;
+    font-size: 1em;
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+}
+
+
+/* 
+==========================================================================
+DISCOVER
+==========================================================================
+*/
+blockquote .author {
+    font-size:0.5em;
+    position: absolute;
+    right: 35%;
+    top: 147%;
+    }
+
+/* 
+==========================================================================
+MATERIALS
+==========================================================================
+*/
+.materials-list {
+    list-style-type: circle;
+}
 
 
 
-Opacity, RGBA, or HSLA
-Styling text
-The following CSS properties should be used:
-font-family
-font-size
-font-weight
-font-style
-line-height
-text-align or text-indent
-text-shadow
-Add a web based font using:
-<link /> or @font-face
-Style your links using the following CSS pseudo-classes:
-a:link
-a:visited
-a:hover
-a:active
-Change the default list styling using:
-list-style-type
-Box model
-The following CSS properties should be used:
-width
-height
-padding
-border
-margin
-Center your page using:
-width
-auto margins
-Add rounded corners using:
-border-radius
-Add box shadow using:
-box-shadow
-Change the display of elements from their default using:
-display
-Comments
-Add comments to both your HTML and CSS to help with organization. For example, HTML comments where divs close ("end content") and CSS comments to split the stylesheet into different sections ("main styles", "navigation", "layout", etc.).
+/* 
+==========================================================================
+CONTACT
+==========================================================================
+*/
+
+
+/* Social Media */
+
+@charset "utf-8";
+.linkedin {
+	background-image : url(linkedin_1_.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 347px;
+	top : 0px;
+	width : 175px;
+	height : 175px;
+}
+
+
+.twitter {
+	background-image : url(twitter_1_.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 173px;
+	top : 0px;
+	width : 175px;
+	height : 175px;
+}
+
+.facebook {
+	background-image : url(facebook_1_.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 0px;
+	top : 0px;
+	width : 175px;
+	height : 175px;
+}
