@@ -127,7 +127,9 @@ p, .logo {
 	width: 100%;
 }
 
-
+.shadowtext {
+    text-shadow: 2px 2px #ddd;
+}
 
 /* 
 ==========================================================================
@@ -216,7 +218,6 @@ nav {
 nav li {
     display: inline-block;
     float: left;
-    padding: 1em;
     margin: 0 1.5em;
     font: small-caps bold 1.275em/1.5;
 }
@@ -241,10 +242,6 @@ WELCOME
 */
 #welcome {
     bg
-}
-
-.welcome-header {
-    text-shadow: 2px 2px #ddd;
 }
 
 div.bg img {
@@ -282,12 +279,10 @@ DEFINE
 DISCOVER
 ==========================================================================
 */
-blockquote .author {
+/*p span.author {
     font-size:0.5em;
-    position: absolute;
-    right: 35%;
-    top: 147%;
-    }
+    position: relative;
+}*/
 
 /* 
 ==========================================================================
