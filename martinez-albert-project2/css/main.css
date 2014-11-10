@@ -59,8 +59,6 @@ VISUAL STYLES
 /* layout / positioning / spacial stylings */
 
 .boxshadow {
-    -moz-box-shadow: 4px 9px 11px #0d0d0d;
-    -webkit-box-shadow: 4px 9px 11px #0d0d0d;
     box-shadow: 4px 9px 11px #0d0d0d;
 }
 
@@ -156,15 +154,18 @@ h1, h2, h3 {
 h1 {
     color: #000;
    	text-transform: capitalize;
-   	font-size: 2em/1.5;
+   	font-size: 2em;
+    line-height: 1.5em;
 }
 
 h2 {
-    font-size: 1.757em/1.5;
+    font-size: 1.757em;
+    line-height: 1.5em;
 }
 
 h3 {
-    font-size: 1em/1;
+    font-size: 1em;
+    line-height: 1;
 
 }
 
@@ -174,10 +175,6 @@ ul {
 
 a, section {
     text-decoration: none;
-    -webkit-transition: all 0.2s ease-out;
-    -moz-transition: all 0.2s ease-out;
-    -o-transition: all 0.2s ease-out;
-    -ms-transition: all 0.2s ease-out;
     transition: all 0.2s ease-out;
 }
 
@@ -189,7 +186,7 @@ blockquote {
 
 }
 
-#welcome, #define, #discover, #materials, #contact{
+#welcome, #define, #discover, #materials, #contact {
     padding: 5%;
     border-radius: 30px;
 }
@@ -271,10 +268,7 @@ DEFINE
     padding-top: 5em;
     left: -5em;
     font-size: 1em;
-    -webkit-transform: rotate(-90deg);
-    -moz-transform: rotate(-90deg);
-    -ms-transform: rotate(-90deg);
-    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg);
 }
 
 
@@ -304,7 +298,6 @@ CONTACT
 
 /* Social Media */
 
-@charset "utf-8";
 .linkedin {
 	background-image : url(linkedin_1_.png);
 	background-repeat : no-repeat;
