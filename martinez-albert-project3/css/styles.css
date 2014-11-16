@@ -1,21 +1,24 @@
-/* for older browsers to be able to properly render these HTML5 elements*/
-header, section, footer, aside, nav, article, figure, figcaption {
-	display: block;
-}
-
+/*
+-----------------------------------------------------------------
+BOX MODEL P
+-----------------------------------------------------------------
+*/
 body { 
-	background-image: url("http://ialbertm.github.io/dws1/martinez-albert-project3/images/wood.png");
-}
-body {
-	width: 1000px;
+	width: 1000px; /*1000px*/
+	background-image: url("images/sketchmain.png"), url("http://ialbertm.github.io/dws1/martinez-albert-project3/images/wood.png");
 	background-color: #f2e1dd;
-	color: #736b68;
+	color: #f2e1dd;
 	margin: 0 auto;
 	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 1em;
     line-height: 1.5;
+}
+
+article {
+	background-color: rgba(110,127,112, 0.75);
+	padding: 5%;
 }
 
 .wrap {
@@ -28,8 +31,8 @@ h1, h2, h3 {
 }
 
 h1 {
-    color: #000;
-   	text-transform: capitalize;
+    color: white;
+   	text-transform: uppercase;
    	font-size: 2em;
     line-height: 1.5em;
 }
@@ -49,13 +52,17 @@ ul {
     list-style: none;
 }
 
-a, section {
+a, a:link {
     text-decoration: none;
-    transition: all 0.2s ease-out;
+    color: #8fff9d;
 }
 
+a:hover, a:focus, a
+
+
+
 blockquote {
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Open Sans",Helvetica,Arial,sans-serif;
     font-weight: 300;
     font-variant: small-caps;
     font-size: 2em;
@@ -66,9 +73,25 @@ header {
 	text-align: center;
 }
 
+.tagline {
+	font-size: 2em;
+	color: white;
+}
+
+.main-header {
+	width: 100%;
+}
+
+.main-nav li {
+	display: inline;
+	margin: 3%;
+	padding: 0;
+}
+
 #sidebar {
-	margin-left: 5%;
-	right: 10%;
+	width: 90%;
+	margin-left: 2%;
+	
 }
 
 article {
@@ -80,11 +103,25 @@ footer {
 	width: 100%;
 }
 
-nav li {
-	float: left;
-	margin: 1%;
+
+
+/*
+-----------------------------------------------------------------
+INTRO
+-----------------------------------------------------------------
+*/
+
+.promo-col {
+	width: 100%;
+	margin: 0 auto;
 }
 
+.col-s {
+	float: left;
+	font-size: 70%;
+	width: 28%;
+	margin: 1%;
+}
 
 /*
 -----------------------------------------------------------------
@@ -103,6 +140,7 @@ nav li {
 LAYOUT
 -----------------------------------------------------------------
 */
+
 .float-l {
 	float: left;
 	margin: 10px;
@@ -122,9 +160,6 @@ LAYOUT
 	clear: both;
 }
 
-.col-s {
-	width: 30%;
-}
 
 
 /*
