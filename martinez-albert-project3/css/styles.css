@@ -66,11 +66,6 @@ blockquote {
     font-weight: 300;
     font-variant: small-caps;
     font-size: 2em;
-
-}
-
-header {
-	text-align: center;
 }
 
 .tagline {
@@ -78,8 +73,11 @@ header {
 	color: white;
 }
 
-.main-header {
+#main-header {
 	width: 100%;
+	border-top: thick double #8fff9d;
+	border-bottom: thin solid #8fff9d;
+	position: fixed;
 }
 
 .main-nav li {
@@ -110,6 +108,9 @@ footer {
 INTRO
 -----------------------------------------------------------------
 */
+#intro {
+	padding-top: 10%;
+}
 
 .promo-col {
 	width: 100%;
@@ -122,19 +123,6 @@ INTRO
 	width: 28%;
 	margin: 1%;
 }
-
-/*
------------------------------------------------------------------
- COLORS
------------------------------------------------------------------
-*/
-
-/* As hex codes */
-
-/* Main Primary color */
-
-/* Main Secondary color (1) */
-
 /*
 -----------------------------------------------------------------
 LAYOUT
@@ -160,15 +148,4 @@ LAYOUT
 	clear: both;
 }
 
-
-
-/*
------------------------------------------------------------------
-IMAGES
------------------------------------------------------------------
-*/
-.sketch1 {
-	background-image: url("images/sketch1.png");
-	background-repeat: no-repeat;
-	background-size: 
-}
+.social img
