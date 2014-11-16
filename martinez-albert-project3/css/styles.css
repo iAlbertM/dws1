@@ -2,6 +2,10 @@
 header, section, footer, aside, nav, article, figure, figcaption {
 	display: block;
 }
+
+body { 
+	background-image: url("http://ialbertm.github.io/dws1/martinez-albert-project3/images/wood.png");
+}
 body {
 	width: 1000px;
 	background-color: #f2e1dd;
