@@ -195,6 +195,11 @@ div.col-s h2 {
 	width: 30%;
 	float: right;
 }
+
+.materials-list li {
+	margin: 5px;
+}
+
 /*
 -----------------------------------------------------------------
 FLOAT, CLEARS, AND FIXES
