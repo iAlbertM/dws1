@@ -1,0 +1,336 @@
+/*
+-----------------------------------------------------------------
+GLOBAL STYLES
+-----------------------------------------------------------------
+*/
+body { 
+	width: 90%;
+	font-family: Arial,Helvetica,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 100%;
+
+	background-image: url("images/sketchmain.png"), url("http://ialbertm.github.io/dws1/martinez-albert-project3/images/wood.png");
+	background-color: #f2e1dd;
+	color: #f2e1dd;
+}
+
+#page {
+	margin: 0 auto;
+	padding: 2%;
+}
+h1, h2, h3 {
+    font-family: 'Shadows Into Light', cursive;
+}
+
+h1 {
+    color: white;
+   	text-transform: uppercase;
+   	font-size: 3em;
+}
+
+h2 {
+	color: #FFE6A4;
+    font-size: 1.757em;
+    line-height: 1.5em;
+}
+
+h3 {
+    font-size: 1em;
+    line-height: 1em;
+}
+ p {
+ 	color: #eee;
+ 	font-family: inherit;
+ 	font-size: 1em;
+ 	line-height: 1.4em;
+ 	width: 80%;
+ 	padding-left: .5em;
+ }
+
+ blockquote {
+ 	padding: 1em;
+ 	margin:.5em;
+ }
+
+ul li {
+	line-height: 1.5em;
+
+}
+
+a, a:link {
+    text-decoration: none;
+    color: #8fff9d;
+}
+
+a:hover, a:focus {
+	color: #477f4E;
+}
+
+article {
+	background-color: rgba(110,127,112, 0.75);
+	border-top: thin ridge #FFE6A4;
+	border-bottom: thick ridge #FFE6A4;
+	width: 80%;
+	max-width:960px;
+	margin: 0 auto;
+}
+
+figure, .gradient {
+	width: 960px;
+	margin: 0 auto;
+}
+#define, #discover, #explore {
+	padding: 3%;
+	margin: 1em auto;
+}
+
+blockquote {
+	color: white;
+    font-family: "Open Sans",Helvetica,Arial,sans-serif;
+    font-weight: 300;
+    font-variant: small-caps;
+    font-size: 2em;
+    text-shadow: 3px 3px 3px #474747;
+    letter-spacing: 1px;
+	border-top: 1px solid #FFD058;
+	border-bottom: 1px solid #FFD058;
+	text-align: center;
+}
+
+.wrap {
+	background-image: url("images/wood.png");
+	background-repeat: repeat;
+}
+
+/*
+-----------------------------------------------------------------
+ELEMENT STYLES
+-----------------------------------------------------------------
+*/
+
+#intro {
+	padding-top: 2%;
+}
+
+.intro-wrapper>h1 {
+	text-align: center;
+}
+
+.tagline {
+	font-size: 2em;
+	color: white;
+}
+
+#header-img {
+	display: block;
+	width:80%;
+	height: auto;
+	margin: 0 auto;
+	padding:0;
+}
+
+img.logo {
+	max-width: 100%;
+	min-width: 1px;
+	text-align: center;
+}
+
+#main-header {
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzdkN2U3ZCIgc3RvcC1vcGFjaXR5PSIwLjgiLz4KICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzBlMGUwZSIgc3RvcC1vcGFjaXR5PSIwLjgiLz4KICA8L2xpbmVhckdyYWRpZW50PgogIDxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjZ3JhZC11Y2dnLWdlbmVyYXRlZCkiIC8+Cjwvc3ZnPg==);
+	background: -moz-linear-gradient(top,  rgba(125,126,125,0.8) 0%, rgba(14,14,14,0.8) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(125,126,125,0.8)), color-stop(100%,rgba(14,14,14,0.8))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(125,126,125,0.8) 0%,rgba(14,14,14,0.8) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(125,126,125,0.8) 0%,rgba(14,14,14,0.8) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(125,126,125,0.8) 0%,rgba(14,14,14,0.8) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(125,126,125,0.8) 0%,rgba(14,14,14,0.8) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc7d7e7d', endColorstr='#cc0e0e0e',GradientType=0 ); /* IE6-8 */
+	width: 100%;
+	border-top: thin ridge #8fff9d;
+	border-bottom: thick ridge #8fff9d;
+	position: fixed;
+}
+.main-nav {
+	width: 100%;
+	max-width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+
+}
+.main-nav li{
+	display: inline-block;
+	margin: 0 5.2%;
+}
+
+div.col-s h2 {
+	width: 30%;
+}
+
+#sidebar {
+	width: 40%;
+	margin-left: 5%;
+	
+}
+.social-img {
+	margin: 1%;
+	width: 25%;
+	height: auto;
+}
+
+.col-s {
+	float: left;
+	font-size: 70%;
+	width: 30%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.column_1 {
+	width: 70%;
+	float: left;
+}
+
+.column_2 {
+	width: 30%;
+	float: right;
+}
+/*
+-----------------------------------------------------------------
+FLOAT, CLEARS, AND FIXES
+-----------------------------------------------------------------
+*/
+
+.float-l {
+	float: left;
+	margin: 1%;
+}
+
+.float-r {
+	float: right;
+	margin: 1%;
+}
+
+.wrapper {
+	margin: 0 auto;
+	padding: 0 1%;
+}
+
+.clear {
+	clear: both;
+}
+.clear-r{
+	clear: right;
+}
+
+.pfix {
+	overflow: auto;
+	width:100%;
+}
+
+/*
+-----------------------------------------------------------------
+TABLE
+-----------------------------------------------------------------
+*/
+table {
+	width:100%;
+	border: none;
+	margin: 0 auto;
+	padding: 1%;
+}	
+
+th {
+	font-size:1.2em;
+	text-transform: uppercase; 
+	letter-spacing: 0.1em;
+	border-top: thin ridge #FFE6A4;
+	border-bottom: thick ridge #FFE6A4;
+	text-align: center;
+}
+
+ img.sm-img {
+	width: 50%;
+	height: auto;
+}
+
+td {
+	background-color: rgba(255, 255, 255, 0.1);
+	width: 20%;
+	height: auto;
+	padding: 1em;
+	font-size: 1em;
+	text-align:left;
+}
+
+tr {
+	border-spacing: 0;
+	border-collapse: collapse;
+}
+
+tr.even {
+	background-color:rgba(0, 0, 0, 0.5);
+}
+
+tr:hover {
+	background-color: rgba(255,255, 255, 0.5);
+}
+
+
+/*
+-----------------------------------------------------------------
+FORM
+-----------------------------------------------------------------
+*/
+form {
+	display: block;
+	margin-top: 0em;
+}
+
+fieldset {
+	width: 60%;
+	line-height: 1em;
+	margin: 2% auto 0 auto;
+}
+form p {
+	display: block;
+}
+
+.input {
+	float: left;
+	width: 20%;
+	margin: 1%;
+	padding: 1%;
+	display: inline-block;
+}
+
+label, .title {
+
+	font-size: 1em;
+	color: #FFE6A4;
+	text-align: right;
+	margin-right: 1em;
+}
+
+p input {
+	margin: 1%;
+	padding: 1%;
+}
+
+input {
+	background-color: white;
+
+}
+
+input:hover, input:focus {
+	background-color: #FFD058;
+	box-shadow: 0 0 3px #FFD058;
+}
+
+.title {
+	width: 25%;
+	float: left;
+}
+.submit {
+	text-align: center;
+}
