@@ -140,10 +140,6 @@ input[type="search"]{
 
 }
 
-button::focus,input::focus{
-	border: 0;padding: 0;
-}
-
 textarea {
 	overflow: auto;vertical-align: top;
 }
