@@ -20,7 +20,7 @@ audio,canvas,video {
 }
 
 html {
-	font-family: sans-serif;-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;
+	font-family: sans-serif;
 }
 
 body {
@@ -52,7 +52,7 @@ dfn {
 }
 
 hr {
-	-moz-box-sizing: content-box;box-sizing: content-box;height: 0;
+	box-sizing: content-box;height: 0;
 }
 
 mark {
@@ -120,7 +120,7 @@ button,select {
 }
 
 button,html input[type="button"],input[type="reset"],input[type="submit"] {
-	-webkit-appearance: button;cursor: pointer;
+	cursor: pointer;
 }
 
 button[disabled],html input[disabled] {
@@ -132,12 +132,12 @@ input[type="checkbox"],input[type="radio"] {
 }
 
 input[type="search"] {
-	-webkit-appearance: textfield;-moz-box-sizing: content-box;-webkit-box-sizing: content-box;box-sizing: content-box;
+	box-sizing: content-box;
 }
 
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
-	-webkit-appearance: none;
+
 }
 
 button::-moz-focus-inner,input::-moz-focus-inner {
