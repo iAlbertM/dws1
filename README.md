@@ -1,5 +1,5 @@
 <h1>Designing for Web Standards 1 (DWS1)</h1>
-<hr/>====
+<hr/>
 <h2>Weekly Projects:</h2>
 <ol>
 <li><a href="https://ialbertm.github.io/dws1/martinez_albert_project1/index.html">Week 1 Project</a></li>
